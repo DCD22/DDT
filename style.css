@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0.5rem;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#hamburgerMenu {
+  margin-top: 1rem;
+}
+
+nav {
+  visibility: hidden;
+}
+
+/* Images */
+#ddtLogoDark {
+  width: 80vw;
+}
+
+#carMockup {
+  display: flex;
+  align-items: center;
+  width: 95vw;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+h1 {
+  color: #ff7d00;
+  margin-bottom: 1rem;
+}
+
+#welcomeList {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+#welcomeList li {
+  color: #ff7d00;
+  font-weight: bold;
+  list-style: none;
+  padding-right: 10px;
+}
+
+h2 {
+  color: #ff7d00;
+  margin: 1rem 0 0.5rem 0;
+}
+
+#vehicleTypes ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+#vehicleTypes ul li::before {
+  content: "\2022";
+  display: inline-block;
+  font-weight: bold;
+  width: 1rem;
+  color: #ff7d00;
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  color: #ff7d00;
+  font-size: 0.8rem;
+}
