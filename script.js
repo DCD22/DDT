@@ -1,3 +1,5 @@
+// FAQ Accordion //
+
 const faq = document.getElementsByClassName("faqQuestion");
 let i;
 
@@ -12,3 +14,5 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
+
+// End of FAQ Accordion //
