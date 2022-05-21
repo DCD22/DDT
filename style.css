@@ -25,6 +25,7 @@ nav {
 }
 
 /* Images */
+
 #ddtLogoDark {
   width: 80vw;
 }
@@ -36,6 +37,8 @@ nav {
   border-radius: 10px;
   margin-top: 0.5rem;
 }
+
+/* End of Images */
 
 h1 {
   color: #ff7d00;
@@ -79,6 +82,86 @@ h2 {
   padding-bottom: 5px;
 }
 
+#contactMe {
+  margin-bottom: 1rem;
+}
+
+form {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+
+input[type=text], [type=email], #message, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ff7d00;
+  border-radius: 10px;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #ff7d00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* FAQ */
+
+.faqContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.faqQuestion {
+  color: #ff7d00;
+  cursor: pointer;
+  padding: 30px 20px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.faqAnswer {
+  margin: auto;
+  width: 90%;
+  padding: auto;
+}
+
+.active, .faq.Answer:hover {
+  background-color: white;
+}
+
+.faqAnswer {
+  padding: 10px 10px;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  display: none;
+  overflow: hidden;
+}
+
+.faqQuestion:after {
+  content: '\02795';
+  font-size: 1rem;
+  color: #ff7d00;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+/* End of FAQ */
 footer {
   text-align: center;
   color: #ff7d00;
