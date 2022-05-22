@@ -12,13 +12,22 @@ body {
 }
 
 #logo {
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-#hamburgerMenu {
-  margin-top: 1rem;
+.hamburger {
+ position: fixed;
+ z-index: 100;
+ top: 1rem;
+ right: 1rem;
+ padding: 4px;
+ border: none;
+ background: white;
+ cursor: pointer;
 }
 
 #navigation {
@@ -180,9 +189,14 @@ footer {
     width: 40vw;
   }
 
-  #hamburgerMenu {
-    margin-top: 1rem;
-    margin-right: 0;
+  .contactForm {
+    width: 500px;
+    margin: auto;
+  }
+
+  .contactMe p {
+    text-align: center;
+    margin-bottom: 2rem;
   }
 }
 
@@ -228,11 +242,192 @@ footer {
   }
 
   #welcomeList {
+    margin: auto;
+    /* width: 80vw; */
+  }
+
+  #carMockup {
+    width: 50vw;
+    margin: 3rem auto;
+  }
+
+  #learningToDrive {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #learningToDrive p {
+    padding: 10px 0;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .contactForm {
+    width: 500px;
+    margin: auto;
+  }
+
+  .contactMe p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+
+  #ddtLogoDark {
+    width: 20vw;
+    margin: 1rem 5rem 0 0;
+  }
+
+  #hamburgerMenu {
+    display: none;
+  }
+
+  #logo {
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  
+  #navigation {
+    visibility: visible;
+    display: flex;
+  }
+
+  #navigationLinks {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  #navigationLinks li {
+    color: #ff7d00;
+    font-weight: bold;
+    list-style: none;
+    padding:0 1rem 0 4rem;
+  }
+
+  .navItem a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff7d00;
+  }
+
+  #welcomeList {
     margin: 3rem 5rem;
     width: 80vw;
   }
 
   #carMockup {
     width: 50vw;
+    margin: 3rem auto;
+  }
+
+  #learningToDrive {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #learningToDrive p {
+    padding: 10px 0;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .contactForm {
+    width: 500px;
+    margin: auto;
+  }
+
+  .contactMe p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .faqContainer {
+    width: 70vw;
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  body {
+    width: 70vw;
+    margin: auto;
+  }
+
+  #ddtLogoDark {
+    width: 8vw;
+    margin: 1rem 0;
+  }
+
+  #hamburgerMenu {
+    display: none;
+  }
+
+  #logo {
+    width:70vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  
+  #navigation {
+    visibility: visible;
+    display: flex;
+  }
+
+  #navigationLinks {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  #navigationLinks li {
+    color: #ff7d00;
+    font-weight: bold;
+    list-style: none;
+    padding:0 8rem 0 4rem;
+  }
+
+  .navItem a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff7d00;
+  }
+
+  #welcomeList {
+    margin: 3rem auto;
+  }
+
+  #carMockup {
+    width: 30vw;
+    margin: 3rem auto;
+  }
+
+  h1, h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .contactForm {
+    width: 500px;
+    margin: auto;
+  }
+
+  .contactMe p {
+    text-align: center;
+    margin-bottom: 2rem;
   }
 }
