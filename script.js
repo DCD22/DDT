@@ -22,7 +22,7 @@ for (i = 0; i < faq.length; i++) {
 const menu = document.querySelector("#navigationLinks");
 const menuItems = document.querySelectorAll(".navItem");
 const hamburger = document.querySelector(".hamburger");
-const menuIcon = document.querySelector("#hamburgerMenu")
+const menuIcon = document.querySelector("#hamburgerMenu");
 
 function toggleMenu() {
     if (menu.classList.contains("showMenu")) {

@@ -1,426 +1,430 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: white;
-  color: black;
-  margin: 0.5rem;
-  font-size: 16px;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0.5rem;
+    font-size: 16px;
 }
 
 #logo {
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .hamburger {
- position: fixed;
- z-index: 100;
- top: 1rem;
- right: 1rem;
- padding: 4px;
- border: none;
- background: #e4e4e4;
- cursor: pointer;
- border-radius: 5px;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: none;
+    background: #e4e4e4;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 #navigation {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 /* Images */
 
 #ddtLogoDark {
-  width: 60vw;
+    width: 60vw;
 }
 
 #carMockup {
-  display: flex;
-  align-items: center;
-  width: 95vw;
-  border-radius: 10px;
-  margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    border-radius: 10px;
+    margin-top: 0.5rem;
 }
 
 /* End of Images */
 
 h1 {
-  color: #ff7d00;
-  margin-bottom: 1rem;
+    color: #ff7d00;
+    margin-bottom: 1rem;
 }
 
 #welcomeList {
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1rem 0;
 }
 
 #welcomeList li {
-  color: #ff7d00;
-  font-weight: bold;
-  list-style: none;
-  padding-right: 10px;
+    color: #ff7d00;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 10px;
 }
 
 h2 {
-  color: #ff7d00;
-  margin: 1rem 0 0.5rem 0;
+    color: #ff7d00;
+    margin: 1rem 0 0.5rem 0;
 }
 
 #vehicleTypes ul {
-  list-style: none;
-  margin-top: 1rem;
-  padding: 10px;
+    list-style: none;
+    margin-top: 1rem;
+    padding: 10px;
 }
 
 #vehicleTypes ul li::before {
-  content: "\2022";
-  display: inline-block;
-  font-weight: bold;
-  width: 1rem;
-  color: #ff7d00;
-  padding-bottom: 5px;
+    content: "\2022";
+    display: inline-block;
+    font-weight: bold;
+    width: 1rem;
+    color: #ff7d00;
+    padding-bottom: 5px;
 }
 
 #contactMe {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 form {
-  background-color: #e4e4e4;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 1rem;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 1rem;
 }
 
-input[type=text], [type=email], #message, select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ff7d00;
-  border-radius: 10px;
+input[type="text"],
+[type="email"],
+#message,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ff7d00;
+    border-radius: 10px;
 }
 
-button[type=submit] {
-  width: 100%;
-  background-color: #ff7d00;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+button[type="submit"] {
+    width: 100%;
+    background-color: #ff7d00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /* FAQ */
 
 .faqContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .faqQuestion {
-  color: #ff7d00;
-  cursor: pointer;
-  padding: 30px 20px;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin: auto;
+    color: #ff7d00;
+    cursor: pointer;
+    padding: 30px 20px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
 }
 
 .faqAnswer {
-  margin: auto;
-  width: 90%;
-  padding: auto;
+    margin: auto;
+    width: 90%;
+    padding: auto;
 }
 
-.active, .faq.Answer:hover {
-  background-color: white;
+.active,
+.faq.Answer:hover {
+    background-color: white;
 }
 
 .faqAnswer {
-  padding: 10px 10px;
-  background-color: #e4e4e4;
-  border-radius: 5px;
-  display: none;
-  overflow: hidden;
+    padding: 10px 10px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    display: none;
+    overflow: hidden;
 }
 
 .faqQuestion:after {
-  content: '\02795';
-  font-size: 1rem;
-  color: #ff7d00;
-  float: right;
-  margin-left: 5px;
+    content: "\02795";
+    font-size: 1rem;
+    color: #ff7d00;
+    float: right;
+    margin-left: 5px;
 }
 
 .active:after {
-  content: "\2796";
+    content: "\2796";
 }
 
 /* End of FAQ */
 
 @media (min-width: 480px) and (max-width: 768px) {
+    #ddtLogoDark {
+        margin: 0;
+        width: 40vw;
+    }
 
-  #ddtLogoDark {
-    margin: 0;
-    width: 40vw;
-  }
+    .contactForm {
+        width: 500px;
+        margin: auto;
+    }
 
-  .contactForm {
-    width: 500px;
-    margin: auto;
-  }
-
-  .contactMe p {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+    .contactMe p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #ddtLogoDark {
+        width: 20vw;
+        margin: 0 5rem 0 0;
+    }
 
-  #ddtLogoDark {
-    width: 20vw;
-    margin: 0 5rem 0 0;
-  }
+    #hamburgerMenu {
+        display: none;
+    }
 
-  #hamburgerMenu {
-    display: none;
-  }
+    #logo {
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
 
-  #logo {
-    justify-content: space-between;
-    margin-bottom: 5rem;
-  }
-  
-  #navigation {
-    visibility: visible;
-    display: flex;
-  }
+    #navigation {
+        visibility: visible;
+        display: flex;
+    }
 
-  #navigationLinks {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-  }
+    #navigationLinks {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
 
-  #navigationLinks li {
-    color: #ff7d00;
-    font-weight: bold;
-    list-style: none;
-    padding:0 1rem 0 4rem;
-  }
+    #navigationLinks li {
+        color: #ff7d00;
+        font-weight: bold;
+        list-style: none;
+        padding: 0 1rem 0 4rem;
+    }
 
-  .navItem a {
-    display: inline-block;
-    text-decoration: none;
-    color: #ff7d00;
-  }
+    .navItem a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ff7d00;
+    }
 
-  #welcomeList {
-    margin: auto;
-    /* width: 80vw; */
-  }
+    #welcomeList {
+        margin: auto;
+        /* width: 80vw; */
+    }
 
-  #carMockup {
-    width: 50vw;
-    margin: 3rem auto;
-  }
+    #carMockup {
+        width: 50vw;
+        margin: 3rem auto;
+    }
 
-  #learningToDrive {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-  }
+    #learningToDrive {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  #learningToDrive p {
-    padding: 10px 0;
-  }
+    #learningToDrive p {
+        padding: 10px 0;
+    }
 
-  h1, h2 {
-    text-align: center;
-  }
+    h1,
+    h2 {
+        text-align: center;
+    }
 
-  .contactForm {
-    width: 500px;
-    margin: auto;
-  }
+    .contactForm {
+        width: 500px;
+        margin: auto;
+    }
 
-  .contactMe p {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+    .contactMe p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1224px) {
+    #ddtLogoDark {
+        width: 20vw;
+        margin: 1rem 5rem 0 0;
+    }
 
-  #ddtLogoDark {
-    width: 20vw;
-    margin: 1rem 5rem 0 0;
-  }
+    #hamburgerMenu {
+        display: none;
+    }
 
-  #hamburgerMenu {
-    display: none;
-  }
+    #logo {
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
 
-  #logo {
-    justify-content: space-between;
-    margin-bottom: 5rem;
-  }
-  
-  #navigation {
-    visibility: visible;
-    display: flex;
-  }
+    #navigation {
+        visibility: visible;
+        display: flex;
+    }
 
-  #navigationLinks {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-  }
+    #navigationLinks {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
 
-  #navigationLinks li {
-    color: #ff7d00;
-    font-weight: bold;
-    list-style: none;
-    padding:0 1rem 0 4rem;
-  }
+    #navigationLinks li {
+        color: #ff7d00;
+        font-weight: bold;
+        list-style: none;
+        padding: 0 1rem 0 4rem;
+    }
 
-  .navItem a {
-    display: inline-block;
-    text-decoration: none;
-    color: #ff7d00;
-  }
+    .navItem a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ff7d00;
+    }
 
-  #welcomeList {
-    margin: 3rem 5rem;
-    width: 80vw;
-  }
+    #welcomeList {
+        margin: 3rem 5rem;
+        width: 80vw;
+    }
 
-  #carMockup {
-    width: 50vw;
-    margin: 3rem auto;
-  }
+    #carMockup {
+        width: 50vw;
+        margin: 3rem auto;
+    }
 
-  #learningToDrive {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-  }
+    #learningToDrive {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  #learningToDrive p {
-    padding: 10px 0;
-  }
+    #learningToDrive p {
+        padding: 10px 0;
+    }
 
-  h1, h2 {
-    text-align: center;
-  }
+    h1,
+    h2 {
+        text-align: center;
+    }
 
-  .contactForm {
-    width: 500px;
-    margin: auto;
-  }
+    .contactForm {
+        width: 500px;
+        margin: auto;
+    }
 
-  .contactMe p {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+    .contactMe p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 
-  .faqContainer {
-    width: 70vw;
-    margin-left: 10rem;
-  }
+    .faqContainer {
+        width: 70vw;
+        margin-left: 10rem;
+    }
 }
 
 @media only screen and (min-width: 1224px) {
-  body {
-    width: 70vw;
-    margin: auto;
-  }
+    body {
+        width: 70vw;
+        margin: auto;
+    }
 
-  #ddtLogoDark {
-    width: 8vw;
-    margin: 1rem 0;
-  }
+    #ddtLogoDark {
+        width: 8vw;
+        margin: 1rem 0;
+    }
 
-  #hamburgerMenu {
-    display: none;
-  }
+    #hamburgerMenu {
+        display: none;
+    }
 
-  #logo {
-    width:70vw;
-    margin: auto;
-    justify-content: space-between;
-    margin-bottom: 5rem;
-  }
-  
-  #navigation {
-    visibility: visible;
-    display: flex;
-  }
+    #logo {
+        width: 70vw;
+        margin: auto;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
 
-  #navigationLinks {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-  }
+    #navigation {
+        visibility: visible;
+        display: flex;
+    }
 
-  #navigationLinks li {
-    color: #ff7d00;
-    font-weight: bold;
-    list-style: none;
-    padding:0 8rem 0 4rem;
-  }
+    #navigationLinks {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
 
-  .navItem a {
-    display: inline-block;
-    text-decoration: none;
-    color: #ff7d00;
-  }
+    #navigationLinks li {
+        color: #ff7d00;
+        font-weight: bold;
+        list-style: none;
+        padding: 0 8rem 0 4rem;
+    }
 
-  #welcomeList {
-    margin: 3rem auto;
-  }
+    .navItem a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ff7d00;
+    }
 
-  #carMockup {
-    width: 30vw;
-    margin: 3rem auto;
-  }
+    #welcomeList {
+        margin: 3rem auto;
+    }
 
-  h1, h2 {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
+    #carMockup {
+        width: 30vw;
+        margin: 3rem auto;
+    }
 
-  .contactForm {
-    width: 500px;
-    margin: auto;
-  }
+    h1,
+    h2 {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 
-  .contactMe p {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+    .contactForm {
+        width: 500px;
+        margin: auto;
+    }
+
+    .contactMe p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 }
