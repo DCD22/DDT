@@ -9,6 +9,7 @@ body {
   background-color: white;
   color: black;
   margin: 0.5rem;
+  font-size: 16px;
 }
 
 #logo {
@@ -26,8 +27,9 @@ body {
  right: 1rem;
  padding: 4px;
  border: none;
- background: white;
+ background: #e4e4e4;
  cursor: pointer;
+ border-radius: 5px;
 }
 
 #navigation {
@@ -37,7 +39,7 @@ body {
 /* Images */
 
 #ddtLogoDark {
-  width: 80vw;
+  width: 60vw;
 }
 
 #carMockup {
