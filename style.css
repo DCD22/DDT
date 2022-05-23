@@ -173,15 +173,6 @@ button[type=submit] {
 
 /* End of FAQ */
 
-footer {
-
-  padding: 10px 0;
-  width: 100%;
-  text-align: center;
-  color: #ff7d00;
-  font-size: 0.8rem;
-}
-
 @media (min-width: 480px) and (max-width: 768px) {
 
   #ddtLogoDark {
