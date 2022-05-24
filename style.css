@@ -231,7 +231,7 @@ button[type="submit"] {
     }
 
     .navItem a {
-        display: inline-block;
+        display: flex;
         text-decoration: none;
         color: #ff7d00;
     }
@@ -308,7 +308,7 @@ button[type="submit"] {
     }
 
     .navItem a {
-        display: inline-block;
+        display: flex;
         text-decoration: none;
         color: #ff7d00;
     }
@@ -356,9 +356,15 @@ button[type="submit"] {
 }
 
 @media only screen and (min-width: 1224px) {
+    html {
+        background-color: #e4e4e4;
+    }
+
     body {
         width: 70vw;
+        height: auto;
         margin: auto;
+        padding: 0 20px 50px 20px;
     }
 
     #ddtLogoDark {
@@ -393,11 +399,11 @@ button[type="submit"] {
         color: #ff7d00;
         font-weight: bold;
         list-style: none;
-        padding: 0 8rem 0 4rem;
+        padding: 0 8rem 0 2rem;
     }
 
     .navItem a {
-        display: inline-block;
+        display: inline;
         text-decoration: none;
         color: #ff7d00;
     }
