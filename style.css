@@ -202,7 +202,7 @@ button[type="submit"] {
         margin: 0 5rem 0 0;
     }
 
-    #hamburgerMenu {
+    .hamburger {
         display: none;
     }
 
@@ -279,7 +279,7 @@ button[type="submit"] {
         margin: 1rem 5rem 0 0;
     }
 
-    #hamburgerMenu {
+    .hamburger {
         display: none;
     }
 
@@ -372,7 +372,7 @@ button[type="submit"] {
         margin: 1rem 0;
     }
 
-    #hamburgerMenu {
+    .hamburger {
         display: none;
     }
 
