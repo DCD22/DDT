@@ -1,6 +1,6 @@
 // FAQ Accordion //
 
-const faq = document.getElementsByClassName("faqQuestion");
+const faq = document.querySelectorAll(".faqQuestion");
 let i;
 
 for (i = 0; i < faq.length; i++) {
@@ -19,20 +19,27 @@ for (i = 0; i < faq.length; i++) {
 
 // Hamburger Menu //
 
-const menu = document.querySelector("#navigationLinks");
-const menuItems = document.querySelectorAll(".navItem");
-const hamburger = document.querySelector(".hamburger");
-const menuIcon = document.querySelector("#hamburgerMenu");
+// const menu = document.querySelector("#navigationLinks");
+// const menuItems = document.querySelectorAll(".navItem");
+// const hamburger = document.querySelector(".hamburger");
+// const menuIcon = document.querySelector("#hamburgerMenu");
 
-function toggleMenu() {
-    if (menu.classList.contains("showMenu")) {
-        menu.classList.remove("showMenu");
-        menuIcon.style.display = "block";
-    } else {
-        menu.classList.add("showMenu");
-    }
-}
+// function toggleMenu() {
+//     if (menu.classList.contains("showMenu")) {
+//         menu.classList.remove("showMenu");
+//         menuIcon.style.display = "block";
+//     } else {
+//         menu.classList.add("showMenu");
+//     }
+// }
 
-hamburger.addEventListener("click", toggleMenu);
+// hamburger.addEventListener("click", toggleMenu);
+
+const hamburgerIcon = document.querySelector('.hamburger');
+const navItems = document.querySelector('#navigation');
+
+hamburgerIcon.addEventListener('click', () => {
+    navItems.classList.toggle('active');
+});
 
 // End of Hamburger Menu //
